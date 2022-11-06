@@ -3,6 +3,15 @@ mqtt-mongo-recorder
 
 This NodeJS application listens to MQTT messages and records them to MongoDB
 
+Env
+=======
+node-js: v12.22.9
+mongodb: v5.0.13
+
+Mongo DB install on Ubuntu 22.04 LTS:
+https://www.mongodb.com/community/forums/t/installing-mongodb-over-ubuntu-22-04/159931/82
+https://wiki.crowncloud.net/?How_to_Install_Latest_MongoDB_on_Ubuntu_22_04
+
 Example
 =======
 

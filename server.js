@@ -6,9 +6,10 @@
  * @license MIT
  *
  */
-var mongodb  = require('mongodb');
-var mqtt     = require('mqtt');
-var config   = require('./config');
+
+import mongodb from mongodb;
+import mqtt from mqtt;
+import config from './config';
 
 var mqttUri  = 'mqtt://' + config.mqtt.hostname + ':' + config.mqtt.port;
 var client   = mqtt.connect(mqttUri);
